@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,600&family=Open+Sans:wght@400;700&family=Oswald:wght@400;500;700&family=Passion+One:wght@400;700;900&family=Satisfy&display=swap');
+
+:root{
+    --color0: rgb(26, 26, 129);
+    --color1: rgb(98, 82, 247);
+    --color2: whitesmoke;
+    --color3: black;
+
+    --font0: 'Nunito', 'sans-serif';
+}
+
+body{
+    width: 97vh;
+    height: 97vh;
+
+    color: var(--color0);
+    background-color: var(--color1);
+
+    font-weight: bold;
+    font-family: var(--font0);
+}
+
+#container{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 100vh;
+    transform: translate(-50%, -50%);
+
+    padding: 30px;
+    text-align: center;    
+
+    border-radius: 10px;
+    border: 2px solid var(--color3);
+    background-color: white;
+}
+
+#container h1{
+    padding: 0px 60px 60px 60px;
+}
+
+a{
+    color: var(--color3);
+    text-decoration: none;
+
+    font-size: 17px;
+    font-weight: bolder;
+}
